@@ -20,7 +20,7 @@ document.getElementById('registerForm').addEventListener('submit', function(even
 });
 
 // Adicionando lembretes
-document.getElementById('reminderForm').addEventListener('submit', function(event) {
+document.getElementById('reminderFormSubmit').addEventListener('submit', function(event) {
     event.preventDefault();
 
     const time = document.getElementById('time').value;
